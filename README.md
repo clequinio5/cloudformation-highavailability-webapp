@@ -16,7 +16,7 @@ It is part of the Cloud Devops Engineer Nanodegree Program of Udacity.
 
 ## Infrastructure
 
-(./cf-ha-webapp.png)
+[](cf-ha-webapp.png)
 
 ## Interesting config elements
 
