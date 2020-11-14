@@ -14,6 +14,12 @@ It is part of the Cloud Devops Engineer Nanodegree Program of Udacity.
 - YAML: describes the infrastructure (network and server)
 - JSON: contains parameters of the infrastructure
 
+## Deploy
+
+```cmd
+aws cloudformation create-stack --stack-name cfhaStack --template-body file://cf-ha-webapp.yml --parameters file://cf-ha-webapp.json --capabilities "CAPABILITY_IAM" "CAPABILITY_NAMED_IAM" --region=us-west-2
+```
+
 ## Infrastructure
 
 ![Infrastructure](./cf-ha-webapp.png)
