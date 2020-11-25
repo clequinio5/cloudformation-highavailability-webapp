@@ -1,4 +1,4 @@
-# Deployment of an high availability webapp on AWS cloud
+# Deployment of an high availability webapp on AWS
 
 ## Description
 
